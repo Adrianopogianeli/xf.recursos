@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout Padding="5">
             <StackLayout Padding="5" Spacing="2">
-                <SearchBar Placeholder="Pesquisar por produto"  />
+                <SearchBar Placeholder="Pesquisar por produto" Text="{Binding PesquisaPorDescricao}"  />
             </StackLayout>
             <ListView ItemsSource="{Binding Produtos}" ItemTapped="lstProduto_ItemTapped" 
                       RowHeight="100">
